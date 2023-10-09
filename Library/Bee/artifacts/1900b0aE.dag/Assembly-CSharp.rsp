@@ -376,6 +376,7 @@
 -analyzer:"C:/Program Files/Unity 2023.1.16f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity 2023.1.16f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/PlayerInputActions.cs"
+"Assets/Scripts/ClearCounter.cs"
 "Assets/Scripts/GameInput.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/PlayerAnimator.cs"
