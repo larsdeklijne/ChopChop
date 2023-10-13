@@ -26,7 +26,6 @@ public class ClearCounter : MonoBehaviour, IKitchenObjectParent {
     }
 
     public void SetKitchenObject(KitchenObject kitchenObject) {
-        Debug.Log("SetKitchenObject function");
         this.kitchenObject = kitchenObject;
     }
 

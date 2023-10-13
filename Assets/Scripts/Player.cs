@@ -63,16 +63,12 @@ public class Player : MonoBehaviour, IKitchenObjectParent {
             if(raycastHit.transform.TryGetComponent(out ClearCounter clearCounter)) {
                 // Has ClearCounter
                 if (clearCounter != selectedCounter) {
-
-                    Debug.Log("function call line 67");
                     SetSelectedCounter(clearCounter);
                 }
             } else {
-                Debug.Log("function call line 67");
                 SetSelectedCounter(null);
             }
         }  else {
-            Debug.Log("function call line 67");
             SetSelectedCounter(null);
         }
 
@@ -131,8 +127,6 @@ public class Player : MonoBehaviour, IKitchenObjectParent {
     }
 
     private void SetSelectedCounter(ClearCounter selectedCounter) {
-
-        Debug.Log("SetSelectedCounter function");
         this.selectedCounter = selectedCounter;
 
         OnSelectedCounterChanged?.Invoke(this, new OnSelectedCounterChangedEventArgs {
