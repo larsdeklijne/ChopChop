@@ -333,5 +333,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa0169b6d02268c47ac172c890ff65c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clearCounter: {fileID: 1697279308822725154}
-  visualGameObject: {fileID: 2051505880543640862}
+  baseCounter: {fileID: 1697279308822725154}
+  visualGameObjectArray:
+  - {fileID: 2051505880543640862}
