@@ -128,6 +128,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3647000082375238342, guid: 3fa1f89f378d60f40a65a730cd69e3b1,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3647000082375238342, guid: 3fa1f89f378d60f40a65a730cd69e3b1,
+        type: 3}
+      propertyPath: 'cuttingRecipeSOArray.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: d29783f210c717443aacd2f38e3a0f44,
+        type: 2}
+    - target: {fileID: 3647000082375238342, guid: 3fa1f89f378d60f40a65a730cd69e3b1,
+        type: 3}
+      propertyPath: 'cuttingRecipeSOArray.Array.data[1]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 60c9d379c86a4704d93a1d89a3fe0ec4,
+        type: 2}
+    - target: {fileID: 3647000082375238342, guid: 3fa1f89f378d60f40a65a730cd69e3b1,
+        type: 3}
+      propertyPath: 'cuttingRecipeSOArray.Array.data[2]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 9249525b31042ce4b8a5e0ba66f0786f,
+        type: 2}
     - target: {fileID: 6359851746006011060, guid: 3fa1f89f378d60f40a65a730cd69e3b1,
         type: 3}
       propertyPath: m_Name
