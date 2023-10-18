@@ -382,6 +382,7 @@
 "Assets/Scripts/Counters/ContainerCounterVisual.cs"
 "Assets/Scripts/Counters/CuttingCounter.cs"
 "Assets/Scripts/Counters/CuttingCounterVisual.cs"
+"Assets/Scripts/Counters/StoveCounter.cs"
 "Assets/Scripts/Counters/TrashCounter.cs"
 "Assets/Scripts/GameInput.cs"
 "Assets/Scripts/IKitchenObjectParent.cs"
@@ -391,6 +392,7 @@
 "Assets/Scripts/PlayerAnimator.cs"
 "Assets/Scripts/ProgressBarUI.cs"
 "Assets/Scripts/ScriptableObjects/CuttingRecipeSO.cs"
+"Assets/Scripts/ScriptableObjects/FryingRecipeSO.cs"
 "Assets/Scripts/ScriptableObjects/KitchenObjectSO.cs"
 "Assets/Scripts/SelectedCounterVisual.cs"
 -langversion:9.0
