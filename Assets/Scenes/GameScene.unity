@@ -904,6 +904,7 @@ Transform:
   - {fileID: 100592310}
   - {fileID: 1662183018}
   - {fileID: 375770949}
+  - {fileID: 548050976}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &427417728
@@ -1286,6 +1287,12 @@ Transform:
   - {fileID: 1276619443}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &548050976 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4865438442822107346, guid: a46e5ecae9a1e044c9fa0544b067fc33,
+    type: 3}
+  m_PrefabInstance: {fileID: 1014412569}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &557468331 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8977797343487085172, guid: e5fefd860aede9c4e9a2a41efd8a768d,
@@ -1735,6 +1742,74 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7984b9d45560164dbfc787439030751, type: 3}
+--- !u!1001 &1014412569
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 423723940}
+    m_Modifications:
+    - target: {fileID: 4865438442822107346, guid: a46e5ecae9a1e044c9fa0544b067fc33,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865438442822107346, guid: a46e5ecae9a1e044c9fa0544b067fc33,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865438442822107346, guid: a46e5ecae9a1e044c9fa0544b067fc33,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865438442822107346, guid: a46e5ecae9a1e044c9fa0544b067fc33,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865438442822107346, guid: a46e5ecae9a1e044c9fa0544b067fc33,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865438442822107346, guid: a46e5ecae9a1e044c9fa0544b067fc33,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865438442822107346, guid: a46e5ecae9a1e044c9fa0544b067fc33,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865438442822107346, guid: a46e5ecae9a1e044c9fa0544b067fc33,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865438442822107346, guid: a46e5ecae9a1e044c9fa0544b067fc33,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865438442822107346, guid: a46e5ecae9a1e044c9fa0544b067fc33,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281895511335925914, guid: a46e5ecae9a1e044c9fa0544b067fc33,
+        type: 3}
+      propertyPath: m_Name
+      value: StoveCounter
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a46e5ecae9a1e044c9fa0544b067fc33, type: 3}
 --- !u!1001 &1115895417
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1874,6 +1949,7 @@ GameObject:
   - component: {fileID: 1325969907}
   - component: {fileID: 1325969906}
   - component: {fileID: 1325969905}
+  - component: {fileID: 1325969909}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -1968,6 +2044,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1325969909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325969904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8305a12ed653fef48b1ac3e7cbce8f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  counterTopPoint: {fileID: 0}
+  fryingRecipeSOArray: []
+  burningRecipeSOArray: []
 --- !u!1001 &1462801945
 PrefabInstance:
   m_ObjectHideFlags: 0
