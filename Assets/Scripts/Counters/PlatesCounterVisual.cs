@@ -27,7 +27,6 @@ public class PlatesCounterVisual : MonoBehaviour {
     }
 
     private void PlatesCounter_OnPlateSpawned(object sender, System.EventArgs e) {
-        Debug.Log("plate spawned");
         Transform plateVisualTransform = Instantiate(plateVisualPrefab, counterTopPoint);
 
         float plateOffsetY = .1f;

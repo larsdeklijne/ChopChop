@@ -22,8 +22,6 @@ public class PlatesCounter : BaseCounter {
             spawnPlateTimer = 0f;
 
             if (platesSpawnedAmount < plateSpawnedAmountMax) {
-                Debug.Log("timer over spawn plate");
-
                 platesSpawnedAmount++;
 
                 OnPlateSpawned?.Invoke(this, EventArgs.Empty);
