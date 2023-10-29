@@ -80,12 +80,16 @@
     <Compile Include="Assets\Scripts\DeliveryManager.cs" />
     <Compile Include="Assets\Scripts\Counters\PlatesCounterVisual.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\AudioClipRefsSO.cs" />
+    <Compile Include="Assets\Scripts\UI\GameStartCountdownUI.cs" />
+    <Compile Include="Assets\Scripts\UI\GameOverUI.cs" />
     <Compile Include="Assets\Scripts\UI\ProgressBarUI.cs" />
+    <Compile Include="Assets\Scripts\KitchenGameManager.cs" />
     <Compile Include="Assets\Scripts\IHasProgress.cs" />
     <Compile Include="Assets\Scripts\PlateKitchenObject.cs" />
     <Compile Include="Assets\Scripts\LookAtCamera.cs" />
     <Compile Include="Assets\Scripts\Counters\ClearCounter.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\KitchenObjectSO.cs" />
+    <Compile Include="Assets\Scripts\UI\GamePlayingClockUI.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimator.cs" />
     <Compile Include="Assets\Scripts\Counters\ContainerCounter.cs" />
