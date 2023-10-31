@@ -419,6 +419,7 @@
 "Assets/Scripts/UI/DeliveryManagerSingleUI.cs"
 "Assets/Scripts/UI/DeliveryManagerUI.cs"
 "Assets/Scripts/UI/GameOverUI.cs"
+"Assets/Scripts/UI/GamePauseUI.cs"
 "Assets/Scripts/UI/GamePlayingClockUI.cs"
 "Assets/Scripts/UI/GameStartCountdownUI.cs"
 "Assets/Scripts/UI/MainMenuUI.cs"
