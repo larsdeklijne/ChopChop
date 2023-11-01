@@ -65,7 +65,6 @@ public class KitchenGameManager : MonoBehaviour {
             case State.GameOver:
                 break;
         }
-        Debug.Log(state);
     }
 
     public bool IsGamePlaying() {
@@ -88,7 +87,7 @@ public class KitchenGameManager : MonoBehaviour {
         return 1 - (gamePlayingTimer / gamePlayingTimerMax);
     }
 
-    private void TogglePauseGame() {
+    public void TogglePauseGame() {
         isGamePaused = !isGamePaused;
         if (isGamePaused) {
             Time.timeScale = 0f;

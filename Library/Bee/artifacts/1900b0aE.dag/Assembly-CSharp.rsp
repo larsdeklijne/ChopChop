@@ -407,6 +407,7 @@
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/PlayerAnimator.cs"
 "Assets/Scripts/PlayerSounds.cs"
+"Assets/Scripts/ResetStaticDataManager.cs"
 "Assets/Scripts/ScriptableObjects/AudioClipRefsSO.cs"
 "Assets/Scripts/ScriptableObjects/BurningRecipeSO.cs"
 "Assets/Scripts/ScriptableObjects/CuttingRecipeSO.cs"
